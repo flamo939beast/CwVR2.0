@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7292237562394797284}
   - component: {fileID: 156512756327896269}
   - component: {fileID: 8246546475626447189}
+  - component: {fileID: 7058683859129694658}
   m_Layer: 0
   m_Name: Projectile_Dart
   m_TagString: Dart
@@ -112,3 +113,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7058683859129694658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9093831001618171185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73cc1eaa29f7834db0311816a813b17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 6404183291556287425, guid: 3b704bc033b8b954bb27e0d58d46627a, type: 3}
+  scoreValue: 0

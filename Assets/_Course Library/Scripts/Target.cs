@@ -6,7 +6,7 @@ public class Target : MonoBehaviour
 {
     public GameObject Dart;
     public TextMeshProUGUI scoreText;
-    
+    public int scoreValue;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +25,6 @@ public class Target : MonoBehaviour
         {
             Destroy(gameObject);
 
-            
 
             scoreText.GetComponent<ScoreKeeper>().scoreValue += 5;
             scoreText.GetComponent<ScoreKeeper>().UpdateScore();
